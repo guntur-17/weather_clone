@@ -5,8 +5,7 @@ import 'package:geocoder2/geocoder2.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:google_maps_webservice/places.dart';
 import 'package:openweather_app/pages/home.dart';
-
-const kGoogleApiKey = "key";
+import 'googlekey.dart';
 
 GoogleMapsPlaces _places = GoogleMapsPlaces(apiKey: kGoogleApiKey);
 
